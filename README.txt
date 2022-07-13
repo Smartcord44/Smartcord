@@ -62,12 +62,12 @@ You now have an executable!
 Create a service using systemctl, make sure to replace the paths.
 
 [Unit]
-Description=Nebula Mods Inc. Restorecord
+Description=Nebula Mods Inc. Smartcord
 After=multi-user.target
 [Service]
 WorkingDirectory=/path/to/working/directory
 ExecStart=/path/to/bot/executable
-SyslogIdentifier=Restorecord
+SyslogIdentifier=Smartcord
 Type=idle
 Restart=always
 RestartSec=15
